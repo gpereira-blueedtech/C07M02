@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 40px;
+}
+
+main {
+    background-image: url("forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px dotted black;
+    padding: 10%;
+    margin: 5%;
+}
+
+footer {
+    background-color: cadetblue;
+    border: 1px groove black;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+p, h1{
+    font-style: italic;
+}
+
+main section article h2 {
+    color:coral
+}
+
+#titulocss {
+    color:cornsilk;
+}
+
+#sessao1 {
+    font-weight: bold;
+}
+
+.texto1 {
+    color:ghostwhite;
+}
+
+.padding1 {
+    padding: 20px;
+}

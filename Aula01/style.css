@@ -1,0 +1,35 @@
+p {
+    color: red;
+    font-size: medium;
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+h1 {
+    color: blue;
+}
+
+body{
+    font-style: italic;
+}
+
+#JS {
+    color: green;
+    font-size: x-large;
+}
+
+
+/*
+Seleciona o elemento com a id especificada (id="JS")
+*/
+#titulo2 {
+
+}
+
+/*
+Seleciona todos os elementos da class indicada (class="titulo1")
+*/
+.titulo1 {
+
+}
