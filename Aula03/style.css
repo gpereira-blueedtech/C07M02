@@ -10,6 +10,10 @@ header {
     margin: 40px;
 }
 
+#btn-texto{
+    margin: 30px;
+}
+
 main {
     display: flex;
     flex-direction: row;
