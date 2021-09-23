@@ -11,15 +11,21 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     background-image: url("forest.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px dotted black;
-    padding: 10%;
-    margin: 5%;
+    margin: 2%;
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: cadetblue;
     border: 1px groove black;
     padding: 2rem;
@@ -34,6 +40,7 @@ main section article h2 {
     color:coral
 }
 
+/* Seletor de id - Seleciona o elemento (único!) com a id informada */
 #titulocss {
     color:cornsilk;
 }
@@ -42,10 +49,15 @@ main section article h2 {
     font-weight: bold;
 }
 
+/* Seletor de classe - Seleciona o(s) elemento(s) com a classe informada */
 .texto1 {
     color:ghostwhite;
 }
 
 .padding1 {
     padding: 20px;
+}
+
+.border1{
+    border: 2px solid red;
 }
